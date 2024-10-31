@@ -1,0 +1,39 @@
+.vertical-bar {
+    position: relative;
+    width: 6px; /* Width of the bar */
+    height: 500px; /* Height of the bar */
+    background-color: gray; /* Color of the bar */
+    margin: 20px; /* Space around the bar */
+}
+
+.icon {
+    position: absolute;
+    top: 20px; /* Position the icon from the top of the bar */
+    left: -30px; /* Center the icon horizontally */
+    font-size: 24px; /* Icon size */
+    color: red; /* Icon color */
+}
+
+.icon1 {
+    position: absolute;
+    top: 100px; /* Adjust position for spacing */
+    left: -30px;
+    font-size: 24px;
+    color: blue;
+}
+
+.icon2 {
+    position: absolute;
+    top: 180px; /* Adjust position for spacing */
+    left: -30px;
+    font-size: 24px;
+    color: yellow;
+}
+
+.icon3 {
+    position: absolute;
+    top: 260px; /* Adjust position for spacing */
+    left: -30px;
+    font-size: 24px;
+    color: green;
+}

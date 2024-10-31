@@ -1,0 +1,19 @@
+.parallax-section {
+    /* Background image */
+    background-image: url('./download (1).jfif'); /* Add your image path here */
+    height: 100%; /* Set the height of the parallax section */
+    background-attachment: fixed; /* Fixed attachment for parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire area */
+    position: relative;
+}
+
+.parallax-content {
+    /* Centering content in the parallax section */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center; /* Center the text */
+}
